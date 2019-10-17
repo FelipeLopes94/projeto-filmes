@@ -1,6 +1,6 @@
 import React from 'react';
-import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
+import Modal from './modal';
 
 
 export default class Card extends React.Component{
@@ -12,7 +12,7 @@ export default class Card extends React.Component{
                 <h5 className="card-title">{this.props.nomeCard}</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <Button type="submit">Submit</Button>
+            <Button type="submit" data-toggle="modal" data-target="#ExemploModalCentralizado">Submit</Button>
         </div>
         )
     }

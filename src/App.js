@@ -5,6 +5,7 @@ import Card from './card';
 import NavBar from './Navbar';
 import Footer from './footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Modal from './modal';
 
 function App() {
   return (
@@ -34,9 +35,11 @@ function App() {
           <Card linkImagem="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5c/The_Empire_Strikes_Back.jpg/250px-The_Empire_Strikes_Back.jpg" nomeCard="The empire is back"/>
         </div>
         <div className="cards">
-          <Card linkImagem="https://upload.wikimedia.org/wikipedia/pt/thumb/a/ae/Starwars_06.jpg/250px-Starwars_06.jpg" nomeCard="The Force Awakens"/>
+          <Card linkImagem="https://upload.wikimedia.org/wikipedia/pt/thumb/a/ae/Starwars_06.jpg/250px-Starwars_06.jpg" nomeCard="The Force Awakens"
+            resumoFilme="teste"
+          />
         </div>
-
+          <Modal/>
       </body>
 
       <footer className="footer">

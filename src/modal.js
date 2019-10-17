@@ -19,8 +19,7 @@ export default class Modal extends React.Component{
                     <p>{this.props.resumoFilme}</p>
                 </div>
                 <div className="modal-footer">
-                <button type="button" className="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" className="btn btn-primary">Salvar mudanças</button>
+                <button type="button" className="btn btn-primary" data-dismiss="modal">Fechar</button>
                 </div>
             </div>
             </div>

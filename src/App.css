@@ -28,7 +28,13 @@
   display: inline-flex;
   margin-top: 2%;
   padding-left: 7%;
+    
 
+}
+
+.cards img{
+    /* width: auto;
+    height: auto; */
 }
 .footer{
   flex-shrink: none;
@@ -66,4 +72,7 @@ body {
 
   font-family: Starjedi;
   font-size: 28px;
+}
+.imagens-card{
+  width: 20%;
 }

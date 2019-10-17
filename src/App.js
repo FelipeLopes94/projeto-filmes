@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Card from './card';
+import Card from './Card';
 import NavBar from './Navbar';
 import Footer from './footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from './modal';
+import Modal from './Modal';
+
 
 function App() {
   return (

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Starjedi;
+  src: url('./fontes/Starjedi.ttf');
+}
 .App {
   text-align: center;
 }
@@ -25,4 +29,41 @@
   margin-top: 2%;
   padding-left: 7%;
 
+}
+.footer{
+  flex-shrink: none;
+}
+#copyright{
+  margin-left: 20%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  bottom: 0;
+  position: relative;
+  margin-top: 22%;
+    
+}
+@media (min-width: 700px) and (max-width: 1024px){
+  #sticky-footer {
+    margin-top: 25%;
+  }
+} 
+
+.navbar{
+  background: linear-gradient(90deg, rgba(157,157,170,1) 0%, rgba(120,120,124,1) 35%, rgba(103,116,119,1) 100%);
+}
+.titulo-navbar{
+
+  font-family: Starjedi;
+  font-size: 28px;
 }

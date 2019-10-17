@@ -1,6 +1,7 @@
 import React from 'react';
 import App from './App';
 import Card from './Card'
+
 export default class Modal extends React.Component{
 
     render(){
@@ -28,5 +29,6 @@ export default class Modal extends React.Component{
         </div>
 
         )
-    }   
+    }
+
 }

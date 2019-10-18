@@ -1,14 +1,13 @@
 import React from "react";
 import axios from "axios";
 
-const resultAPI = () => {
-  let filmes = null;
+const API_URL = `https://swapi.co/api/films/`;
+let filmes = "";
 
-  axios.get(`https://swapi.co/api/films/`).then(res => {
+export const resultAPI = () => {
+  axios.get(API_URL).then(res => {
     filmes = res.data.results;
     console.log("Lista de filmes", filmes);
   });
   return filmes;
 };
-
-export const API = resultAPI;

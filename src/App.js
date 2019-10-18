@@ -5,11 +5,9 @@ import NavBar from "./components/Navbar";
 import Footer from "./components/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "./components/Modal";
-import { API } from "./API/ApiFilmes";
+import { resultAPI } from "./API/ApiFilmes";
 
 function App() {
-  console.log("log app", API);
-
   return (
     <div className="App">
       <header className="navbar">
@@ -87,4 +85,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

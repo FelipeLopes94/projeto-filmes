@@ -10,8 +10,8 @@ export default class NavBar extends React.Component{
     render(){
         return(
         <nav >
-            <p class="titulo-navbar">
-                Filmes Star Wars
+            <p className="titulo-navbar">
+                Saga Star Wars
             </p>
         </nav>
         )

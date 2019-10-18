@@ -1,14 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Card from './Card';
-import NavBar from './Navbar';
-import Footer from './footer'
+import Card from './components/Card';
+import NavBar from './components/Navbar';
+import Footer from './components/footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from './Modal';
+import Modal from './components/Modal';
+import API from './API/ApiFilmes'
 
+import axios from 'axios';
+
+
+// http://jsonplaceholder.typicode.com/posts
 
 function App() {
+
   return (
     <div className="App">
       <header className="navbar">
@@ -25,7 +31,7 @@ function App() {
 
         <div className="cards">
           <Card linkImagem="https://upload.wikimedia.org/wikipedia/pt/thumb/6/63/Star_Wars_The_Clone_Wars.jpg/250px-Star_Wars_The_Clone_Wars.jpg" nomeCard="Atack of clones">
-            <Modal/>
+            <Modal></Modal>
           </Card>  
         </div>
 
@@ -63,9 +69,10 @@ function App() {
       <footer className="footer">
           <Footer/>
       </footer>
+      <API/>
     </div>
 
   );
-}
 
+}
 export default App;

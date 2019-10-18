@@ -13,11 +13,14 @@ class Card extends React.Component {
   }
 
   state = {};
-
   render() {
     if (this.state.filmes === undefined) return <p>carregando</p>;
+    let m = "";
+
     return (
       <div>
+        {this.state.filmes.map(filme => filme.title)}
+
         <div className="card" style={{ width: "18rem" }}>
           <img
             class="imagens-card"

@@ -1,35 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Card from './card';
-import NavBar from './Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "./App.css";
+import Card from "./components/Card";
+import NavBar from "./components/Navbar";
+import Footer from "./components/footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <header >
-        <NavBar/>
-      </header>
-      <body className ="main-body">
 
-        <div className="cards">
-          <Card/>
-        </div>
-        <div className="cards">
-          <Card/>
-        </div>
-        <div className="cards">
-          <Card/>
-        </div>
-        <div className="cards">
-          <Card/>
-        </div>
+        <header className="navbar">
+          <NavBar />
+        </header>
 
-      </body>
+        <body className="main-body">
+            <div classnName="container">
+              <div className="cards row col-md-12" >
+                <Card/>
+              </div>
+            </div>
+        </body>
+
+        <footer className="footer">
+          <Footer />
+        </footer>
 
     </div>
-
   );
 }
 

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FelipeLopes94/projeto-filmes/static/css/main.abe781b7.chunk.css",
+    "main.js": "/FelipeLopes94/projeto-filmes/static/js/main.a983b316.chunk.js",
+    "main.js.map": "/FelipeLopes94/projeto-filmes/static/js/main.a983b316.chunk.js.map",
+    "runtime-main.js": "/FelipeLopes94/projeto-filmes/static/js/runtime-main.86fb0cb8.js",
+    "runtime-main.js.map": "/FelipeLopes94/projeto-filmes/static/js/runtime-main.86fb0cb8.js.map",
+    "static/css/2.0624914a.chunk.css": "/FelipeLopes94/projeto-filmes/static/css/2.0624914a.chunk.css",
+    "static/js/2.a7649c0b.chunk.js": "/FelipeLopes94/projeto-filmes/static/js/2.a7649c0b.chunk.js",
+    "static/js/2.a7649c0b.chunk.js.map": "/FelipeLopes94/projeto-filmes/static/js/2.a7649c0b.chunk.js.map",
+    "index.html": "/FelipeLopes94/projeto-filmes/index.html",
+    "precache-manifest.b0a310d39481d3b922017f4bf4a1e422.js": "/FelipeLopes94/projeto-filmes/precache-manifest.b0a310d39481d3b922017f4bf4a1e422.js",
+    "service-worker.js": "/FelipeLopes94/projeto-filmes/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/FelipeLopes94/projeto-filmes/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.abe781b7.chunk.css.map": "/FelipeLopes94/projeto-filmes/static/css/main.abe781b7.chunk.css.map",
+    "static/media/App.css": "/FelipeLopes94/projeto-filmes/static/media/fundo-star-wars.e93baa5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86fb0cb8.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.a7649c0b.chunk.js",
+    "static/css/main.abe781b7.chunk.css",
+    "static/js/main.a983b316.chunk.js"
+  ]
+}

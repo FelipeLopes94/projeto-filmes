@@ -1,3 +1,16 @@
+@font-face {
+  font-family: Starjedi;
+  src: url('./fontes/Starjedi.ttf');
+}
+
+html,
+body {
+  height: 100%; 
+
+}
+
+p{color: black;}
+
 .App {
   text-align: center;
 }
@@ -20,9 +33,84 @@
 .App-link {
   color: #09d3ac;
 }
-.cards{
-  display: inline-flex;
-  margin-top: 2%;
-  padding-left: 7%;
 
+.card{
+  margin: 2%;
+}
+
+.corpo-cards{
+  display: contents;
+}
+
+
+.cards{
+  padding-left: 66px;
+}
+
+.imagens-card{
+  width: 100% !important;
+}
+.btnHistoria{
+  width: 100% !important;
+  margin-bottom: -6%;
+
+}
+.title-modal{
+  font-family: Starjedi;
+  font-size: 20px;
+}
+
+
+.footer{
+  flex-shrink: none;
+}
+
+#copyright{
+  margin-left: 20%;
+}
+
+
+.main-body{
+  padding-left: 57px;
+  background-image: url(./img/fundo-star-wars.jpg);
+  background-size: cover;
+  background-position-x: right;
+}
+
+
+.main-body img{
+  width: 22% ;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  bottom: 0;
+  position: relative;
+    
+}
+
+.navbar{
+  background: linear-gradient(90deg, rgba(157,157,170,1) 0%, rgba(120,120,124,1) 35%, rgba(103,116,119,1) 100%);
+}
+.titulo-navbar{
+
+  font-family: Starjedi;
+  font-size: 28px;
+}
+
+.icon-footer{
+  width: 3.5%;
+}
+.txt-footer{
+  color: aqua;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.nome-diretor{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }

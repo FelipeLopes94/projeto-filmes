@@ -2,6 +2,8 @@
   font-family: Starjedi;
   src: url('./fontes/Starjedi.ttf');
 }
+
+p{color: black;}
 .App {
   text-align: center;
 }

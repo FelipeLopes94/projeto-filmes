@@ -64,6 +64,10 @@ body {
   #sticky-footer {
     margin-top: 25%;
   }
+  .card{
+    margin: 2%;
+    margin-left: 13% !important;
+  }
 } 
 
 .navbar{
@@ -81,4 +85,8 @@ body {
   width: 100% !important;
   margin-bottom: -6%;
 
+}
+.title-modal{
+  font-family: Starjedi;
+  font-size: 20px;
 }

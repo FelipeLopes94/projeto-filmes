@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import Card from "./components/Card";
 import NavBar from "./components/Navbar";
@@ -16,7 +16,7 @@ function App() {
           <div classnName="container">
             <div className="cards row col-md-12" >
               <Card/>
-            </div>
+            </div>  
           </div>
       </body>
 

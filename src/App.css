@@ -26,12 +26,11 @@ p{color: black;}
 .App-link {
   color: #09d3ac;
 }
-.cards{
-  display: inline-flex;
-  margin-top: 2%;
-  padding-left: 7%;
-    
-
+.card{
+  margin: 2%;
+}
+.corpo-cards{
+  display: contents;
 }
 
 .cards img{
@@ -77,4 +76,9 @@ body {
 }
 .imagens-card{
   width: 20%;
+}
+.btnHistoria{
+  width: 100% !important;
+  margin-bottom: -6%;
+
 }

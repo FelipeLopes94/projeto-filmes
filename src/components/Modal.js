@@ -1,10 +1,14 @@
 import React from 'react';
 import App from '../App';
-import Card from './Card'
+import Card from '../components/Card'
 
 class Modal extends React.Component {
+    
     state = {  }
+    
     render() { 
+
+        console.log('lista historias', this.props.textoHistoria)   
         return ( 
 
 
@@ -13,13 +17,13 @@ class Modal extends React.Component {
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="TituloModalCentralizado">{this.props.nomeCard} </h5>
+                            <h5 className="modal-title" id="TituloModalCentralizado">{this.props.tituloFilme} </h5>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Fechar">
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
                         <div className="modal-body">
-                            <p>{this.props.textoModal}</p>
+                            <p>{this.props.textoHistoria}</p>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-primary" data-dismiss="modal">Fechar</button>

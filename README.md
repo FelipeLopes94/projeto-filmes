@@ -1,5 +1,6 @@
 
 ## Para rodar o Projeto..
+**Necessário ter o Node instalado ==>  https://nodejs.org/en/
 
 Entrar na pasta do projeto e rodar no prompt, o comando --> NPM INSTALL <--
 Desta forma, as dependencias irão ser instaladas
